@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سراج المدينة</title>
+<meta name="theme-color" content="#0a1e10">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/QCF4_QBSML.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/QCF4_Hafs_01_W.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/QCF4_Hafs_02_W.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span class="brand">۞ سراج المدينة</span>
+  <select id="surahSel"></select>
+  <button class="tbtn" data-act="prev">◀ السابقة</button>
+  <input id="pgIn" type="number" min="1" max="604">
+  <button class="tbtn" data-act="next">التالية ▶</button>
+  <button class="tbtn" data-act="search">🔍</button>
+  <button class="tbtn" data-act="share">🔗 مشاركة</button>
+  <div class="mode-sw">
+    <button id="mRead" class="active">📖 قراءة</button>
+    <button id="mCorr">🏫 تصحيح</button>
+  </div>
+  <div class="src-sw" id="srcSw" title="مصدر الغريب">
+    <button id="srcKhudairi" class="active">الخضيري</button>
+    <!-- زر مركز تفسير مخفي حتى وصول النسخة النصية الموثّقة من المركز -->
+    <button id="srcTafsir" style="display:none">مركز تفسير</button>
+  </div>
+</div>
+
+<div class="stage">
+  <div class="sheet">
+    <div class="pg-head"><span id="hdSurah"></span><span id="hdPage"></span></div>
+    <div class="lines" id="lines"></div>
+  </div>
+  <div class="margin" id="marginPanel">
+    <h3>هامش السراج — غريب القرآن</h3>
+    <div id="marginList"></div>
+  </div>
+
+  <div class="corr-panel" id="corrPanel">
+    <h3>🏫 تصحيح التلاوة</h3>
+    <h4>تصحيح حضوري</h4>
+    <div class="std-row">
+      <input id="stdName" placeholder="اسم الطالب...">
+    </div>
+    <div class="score-box">
+      <div class="sc" id="scoreNum">١٠٠</div>
+      <div class="scl">الدرجة</div>
+      <div class="ecount"><span class="r" id="cntR">٠ رد</span><span class="t" id="cntT">٠ تنبيه</span><span class="k" id="cntK">٠ خفي</span></div>
+    </div>
+    <div class="deduct">
+      <span>خصم الرد:</span>
+      <select class="dr" id="drInput">
+        <option value="3">٣</option><option value="4" selected>٤</option><option value="5">٥</option>
+      </select>
+      <span>التنبيه:</span>
+      <select class="dt" id="dtInput">
+        <option value="1">١</option><option value="2" selected>٢</option><option value="3">٣</option>
+      </select>
+      <span>الخفي:</span>
+      <select class="dk" id="dkInput">
+        <option value="0.25">٠٫٢٥</option><option value="0.5">٠٫٥</option><option value="1">١</option><option value="2" selected>٢</option>
+      </select>
+    </div>
+    <div class="elist" id="errList"></div>
+    <button class="save-s" data-act="save">💾 حفظ الجلسة</button>
+    <button class="tab-s" data-act="records">📊 السجل والإحصاءات</button>
+    <div id="rcSec" hidden>
+      <h4>تسميع عن بُعد</h4>
+      <div class="rc-lbl" id="rcLbl">انقر رقم الآية لاختيارها</div>
+      <button class="tab-s" id="rcBtn" disabled>سمِّع هذه الآية</button>
+    </div>
+  </div>
+</div>
+
+<div class="epick" id="ePick">
+  <div class="ebox">
+    <div class="eword" id="eWord"></div>
+    <h4 class="j">لحن جلي (خطأ ظاهر)</h4>
+    <div class="jgrade" id="jGrade"></div>
+    <div class="jgrid" id="jGrid"></div>
+    <h4 class="k">لحن خفي (خطأ دقيق)</h4>
+    <div class="etags" id="tagsK"></div>
+    <button class="eclose" data-act="eclose">إغلاق</button>
+  </div>
+</div>
+
+<div class="records" id="recOv">
+  <div class="rbox" id="recBox"></div>
+</div>
+<input type="file" id="recFile" accept=".json,application/json" hidden>
+
+<div class="toast" id="toast"></div>
+
+<div class="abar" id="aBar">
+  <span id="aLbl">—</span>
+  <select class="areciter" id="aReciter">
+    <option value="ar.alafasy">العفاسي</option>
+    <option value="ar.husary">الحصري</option>
+    <option value="ar.minshawi">المنشاوي المرتل</option>
+  </select>
+  <button class="abtn2" id="aPlayBtn">▶</button>
+  <button class="abtn2" data-act="aclose">✕</button>
+</div>
+
+<div class="srch" id="srchOv">
+  <div class="box">
+    <input id="srchIn" placeholder="ابحث في كلمات الغريب ومعانيها...">
+    <div class="res" id="srchRes"></div>
+  </div>
+</div>
+
+<div class="tfs" id="tfsPanel">
+  <div class="tfs-head">
+    <span id="tfsLbl"></span>
+    <button class="abtn2" data-act="tclose" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="tfs-sw" id="tfsSw">
+    <button data-src="mukhtasar_ar">المختصر</button>
+    <button data-src="saadi">السعدي</button>
+  </div>
+  <div class="tfs-body" id="tfsBody"></div>
+  <div class="tfs-nav">
+    <button class="abtn2" id="tfsPrev">◀ الآية السابقة</button>
+    <button class="abtn2" id="tfsNext">الآية التالية ▶</button>
+  </div>
+  <div class="tfs-credit">التفسير: «المختصر في تفسير القرآن الكريم»، و«تيسير الكريم الرحمن» لعبد الرحمن بن ناصر السعدي (ت. 1376هـ). المصدر: Tafsir Center for Quranic Studies (<a href="https://tafsir.net" target="_blank" rel="noopener">https://tafsir.net</a>)، بترخيص CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a>). التعديل: تقسيم البيانات إلى ملف لكل سورة، وعرض حواشي المحقق مرقّمة في أسفل التفسير، وإبراز الكلمات المعلَّمة في المختصر، دون تغيير في حروف النص.</div>
+</div>
+
+<div id="gharibTip" class="gharib-tip">
+  <div class="gt-header">
+    <span class="gt-word"></span>
+    <button class="gt-close" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="gt-mean"></div>
+  <button class="gt-play">▶ تلاوة</button>
+</div>
+
+<script src="quran-data.js" defer></script>
+<script src="records_io.js" defer></script>
+<script src="app.js" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+}
+</script>
+</body>
+</html>

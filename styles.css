@@ -1,0 +1,296 @@
+@font-face{font-family:'QCF4_Hafs_01';src:url('fonts/QCF4_Hafs_01_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_02';src:url('fonts/QCF4_Hafs_02_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_03';src:url('fonts/QCF4_Hafs_03_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_04';src:url('fonts/QCF4_Hafs_04_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_05';src:url('fonts/QCF4_Hafs_05_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_06';src:url('fonts/QCF4_Hafs_06_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_07';src:url('fonts/QCF4_Hafs_07_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_08';src:url('fonts/QCF4_Hafs_08_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_09';src:url('fonts/QCF4_Hafs_09_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_10';src:url('fonts/QCF4_Hafs_10_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_11';src:url('fonts/QCF4_Hafs_11_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_12';src:url('fonts/QCF4_Hafs_12_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_13';src:url('fonts/QCF4_Hafs_13_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_14';src:url('fonts/QCF4_Hafs_14_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_15';src:url('fonts/QCF4_Hafs_15_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_16';src:url('fonts/QCF4_Hafs_16_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_17';src:url('fonts/QCF4_Hafs_17_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_18';src:url('fonts/QCF4_Hafs_18_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_19';src:url('fonts/QCF4_Hafs_19_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_20';src:url('fonts/QCF4_Hafs_20_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_21';src:url('fonts/QCF4_Hafs_21_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_22';src:url('fonts/QCF4_Hafs_22_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_23';src:url('fonts/QCF4_Hafs_23_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_24';src:url('fonts/QCF4_Hafs_24_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_25';src:url('fonts/QCF4_Hafs_25_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_26';src:url('fonts/QCF4_Hafs_26_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_27';src:url('fonts/QCF4_Hafs_27_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_28';src:url('fonts/QCF4_Hafs_28_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_29';src:url('fonts/QCF4_Hafs_29_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_30';src:url('fonts/QCF4_Hafs_30_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_31';src:url('fonts/QCF4_Hafs_31_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_32';src:url('fonts/QCF4_Hafs_32_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_33';src:url('fonts/QCF4_Hafs_33_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_34';src:url('fonts/QCF4_Hafs_34_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_35';src:url('fonts/QCF4_Hafs_35_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_36';src:url('fonts/QCF4_Hafs_36_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_37';src:url('fonts/QCF4_Hafs_37_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_38';src:url('fonts/QCF4_Hafs_38_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_39';src:url('fonts/QCF4_Hafs_39_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_40';src:url('fonts/QCF4_Hafs_40_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_41';src:url('fonts/QCF4_Hafs_41_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_42';src:url('fonts/QCF4_Hafs_42_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_43';src:url('fonts/QCF4_Hafs_43_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_44';src:url('fonts/QCF4_Hafs_44_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_45';src:url('fonts/QCF4_Hafs_45_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_46';src:url('fonts/QCF4_Hafs_46_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_Hafs_47';src:url('fonts/QCF4_Hafs_47_W.woff2') format('woff2');font-display:swap;}
+@font-face{font-family:'QCF4_QBSML';src:url('fonts/QCF4_QBSML.woff2') format('woff2');font-display:swap;}
+:root{
+  --gold:#8B6914; --gold-l:#C9A227; --dark:#1A0F00; --paper:#FCF8EC;
+  --frame:#9A7B2D; --margin-bg:#FBF7EA;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#241D10;font-family:'Amiri',serif;color:var(--dark);
+     display:flex;flex-direction:column;align-items:center;min-height:100vh;}
+
+.topbar{width:100%;background:linear-gradient(180deg,#3D3119,#241D10);color:#E8D9A8;
+  display:flex;align-items:center;justify-content:center;gap:9px;padding:8px 12px;flex-wrap:wrap;
+  border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:50;}
+.topbar .brand{font-weight:bold;font-size:1.15rem;color:var(--gold-l);}
+.topbar select,.topbar input{font-family:'Amiri',serif;background:#FCF8EC;color:var(--dark);
+  border:1px solid var(--gold);border-radius:6px;padding:3px 8px;font-size:.95rem;}
+.topbar input{width:60px;text-align:center;}
+.tbtn{background:var(--gold);color:#fff;border:none;border-radius:6px;padding:4px 13px;
+  font-family:'Amiri',serif;font-size:1rem;cursor:pointer;}
+.tbtn:hover{background:var(--gold-l);}
+
+.stage{display:flex;gap:14px;align-items:flex-start;justify-content:center;
+  width:100%;max-width:1180px;padding:16px 10px 90px;}
+
+.sheet{background:var(--paper);border:11px solid transparent;
+  border-image:linear-gradient(135deg,#C9A227,#7A5C12,#E3C75A,#7A5C12,#C9A227) 1;
+  box-shadow:0 8px 44px rgba(0,0,0,.6),inset 0 0 0 2px #E3C75A;
+  padding:22px 26px;width:640px;max-width:96vw;border-radius:3px;}
+.pg-head{display:flex;justify-content:space-between;color:var(--gold);
+  font-size:.85rem;border-bottom:1px solid #E5D9B0;padding-bottom:5px;margin-bottom:10px;font-family:'Amiri',serif;}
+.lines{display:flex;flex-direction:column;padding-top:0.35rem;overflow:visible;}
+.ln{font-size:1.9rem;line-height:3.6rem;text-align:center;white-space:nowrap;direction:rtl;
+  display:flex;justify-content:space-between;overflow-x:clip;overflow-y:visible;}
+.ln.center{justify-content:center;}
+.ln .w{cursor:pointer;transition:background .15s;}
+.ln .w:hover{background:rgba(201,162,39,.20);border-radius:3px;}
+.ln .w.flash{background:rgba(255,215,80,.6);border-radius:3px;}
+.ln .vn{color:var(--gold);cursor:default;}
+.ln .w.ayah-on{background:rgba(201,162,39,.30);border-radius:3px;}
+@keyframes pulseGold{0%,100%{background:rgba(201,162,39,.12)}50%{background:rgba(201,162,39,.45)}}
+.me.audio-on{animation:pulseGold 1.1s ease-in-out infinite;box-shadow:0 0 0 1px var(--gold-l);}
+.surah-hd{font-family:'Amiri',serif;
+  background:radial-gradient(ellipse at center,#F5E9C5,#EBD9A8);
+  border:2px solid var(--gold);border-radius:8px;color:#6B4F0E;text-align:center;
+  font-size:1.3rem;font-weight:bold;padding:4px 0;margin:7px 0;
+  box-shadow:inset 0 0 0 1px #E3C75A;}
+.basmala{text-align:center;font-size:1.75rem;color:#3a2a00;justify-content:center;}
+
+.margin{background:var(--margin-bg);border:2px solid var(--frame);border-radius:10px;
+  width:330px;max-height:85vh;overflow-y:auto;padding:10px;position:sticky;top:62px;
+  box-shadow:inset 0 0 0 1px #E8DCB4;}
+.margin h3{color:var(--gold);font-size:1rem;text-align:center;border-bottom:1px solid #E0D2A0;
+  padding-bottom:6px;margin-bottom:6px;}
+.me{padding:3px 7px;margin-bottom:3px;border-radius:5px;cursor:pointer;
+  border-right:4px solid;line-height:1.35;}
+.me:hover,.me.hl{background:rgba(0,0,0,.05);}
+.me .mw{font-weight:bold;font-size:1rem;}
+.me .mm{font-size:.83rem;color:#3a2800;}
+.me .mpg{font-size:.68rem;color:#fff;background:var(--gold);border-radius:8px;padding:0 6px;white-space:nowrap;}
+
+.abar{position:fixed;bottom:0;left:0;right:0;background:#241D10;color:#E8D9A8;
+  display:none;align-items:center;justify-content:center;gap:12px;padding:8px;z-index:60;
+  border-top:2px solid var(--gold);font-size:.95rem;}
+.abar.show{display:flex;}
+.abtn2{background:var(--gold);color:#fff;border:none;border-radius:6px;padding:4px 14px;
+  font-family:'Amiri',serif;cursor:pointer;}
+.areciter{background:#332710;color:#E8D9A8;border:1px solid var(--gold);border-radius:6px;
+  padding:4px 10px;font-family:'Amiri',serif;font-size:.9rem;cursor:pointer;direction:rtl;}
+.areciter:focus{outline:none;border-color:#c8a84b;}
+
+.srch{position:fixed;inset:0;background:rgba(20,14,2,.78);display:none;z-index:80;
+  align-items:flex-start;justify-content:center;padding-top:8vh;}
+.srch.show{display:flex;}
+.srch .box{background:var(--paper);border:2px solid var(--gold);border-radius:12px;
+  width:560px;max-width:94vw;max-height:74vh;display:flex;flex-direction:column;padding:14px;}
+.srch input{font-family:'Amiri',serif;font-size:1.05rem;padding:8px;border:1px solid var(--gold);
+  border-radius:8px;margin-bottom:8px;}
+.srch .res{overflow-y:auto;}
+.sr{padding:6px;border-bottom:1px solid #EADFBC;cursor:pointer;}
+.sr:hover{background:#F6EFD8;}
+.sr .rw{font-weight:bold;}.sr .rl{font-size:.78rem;color:#888;}
+.no-results{text-align:center;color:#999;padding:10px;}
+
+/* ── نظام التصحيح ── */
+.mode-sw{display:flex;gap:4px;background:#1A150B;border-radius:8px;padding:3px;}
+.mode-sw button{background:transparent;color:#C9A227;border:none;border-radius:6px;
+  padding:4px 12px;font-family:'Amiri',serif;font-size:.92rem;cursor:pointer;}
+.mode-sw button.active{background:var(--gold);color:#fff;}
+/* ── مبدّل مصدر الغريب ── */
+.src-sw{display:flex;gap:4px;background:#0D2B1A;border-radius:8px;padding:3px;margin-right:6px;}
+.src-sw button{background:transparent;color:#4CAF7A;border:none;border-radius:6px;
+  padding:4px 12px;font-family:'Amiri',serif;font-size:.92rem;cursor:pointer;white-space:nowrap;}
+.src-sw button.active{background:#2E7D52;color:#fff;}
+.ln .w.cor-hover{cursor:pointer;border-radius:3px;}
+.ln .w.cor-hover:hover{background:rgba(201,162,39,.28);}
+.ln .w.ej{background:rgba(192,57,43,.22);border-radius:3px;box-shadow:inset 0 -2px 0 #C0392B;}
+.ln .w.ek{background:rgba(41,128,185,.20);border-radius:3px;box-shadow:inset 0 -2px 0 #2980B9;}
+
+/* لوحة التصحيح الجانبية */
+.corr-panel{background:#FBF7EA;border:2px solid var(--frame);border-radius:10px;
+  width:330px;max-height:85vh;overflow-y:auto;padding:11px;position:sticky;top:62px;display:none;}
+.corr-panel.show{display:block;}
+.corr-panel h3{color:var(--gold);font-size:1rem;text-align:center;border-bottom:1px solid #E0D2A0;padding-bottom:6px;margin-bottom:8px;}
+.std-row{display:flex;gap:6px;margin-bottom:8px;}
+.std-row input{flex:1;font-family:'Amiri',serif;font-size:.95rem;padding:5px 8px;border:1px solid var(--gold);border-radius:6px;}
+.score-box{text-align:center;background:linear-gradient(135deg,#F5E9C5,#EBD9A8);border-radius:9px;padding:7px;margin-bottom:8px;}
+.score-box .sc{font-size:2rem;font-weight:bold;color:#6B4F0E;}
+.score-box .scl{font-size:.75rem;color:#8a6d1a;}
+.ecount{display:flex;justify-content:center;gap:14px;font-size:.82rem;margin-top:3px;}
+.ecount .r{color:#C0392B;}.ecount .t{color:#AD6800;}.ecount .k{color:#2980B9;}
+.deduct{display:flex;gap:8px;justify-content:center;align-items:center;font-size:.78rem;margin-bottom:8px;color:#555;flex-wrap:wrap;}
+.deduct select{font-family:'Amiri',serif;border-radius:5px;padding:2px 5px;cursor:pointer;}
+.deduct .dr{border:1px solid #C0392B;}.deduct .dt{border:1px solid #AD6800;}.deduct .dk{border:1px solid #2980B9;}
+.elist{margin-bottom:8px;}
+.eitem{display:flex;justify-content:space-between;align-items:center;padding:3px 7px;margin-bottom:3px;border-radius:5px;font-size:.8rem;border-right:3px solid;}
+.eitem.j{background:rgba(192,57,43,.08);border-color:#C0392B;}
+.eitem.k{background:rgba(41,128,185,.08);border-color:#2980B9;}
+.eitem button{background:none;border:none;color:#999;cursor:pointer;font-size:.9rem;}
+.save-s{width:100%;background:linear-gradient(135deg,var(--gold),var(--gold-l));color:#fff;border:none;border-radius:8px;padding:8px;font-family:'Amiri',serif;font-size:.95rem;cursor:pointer;margin-bottom:6px;}
+.tab-s{width:100%;background:transparent;color:var(--gold);border:1px solid var(--gold);border-radius:8px;padding:6px;font-family:'Amiri',serif;font-size:.9rem;cursor:pointer;}
+.tab-s:disabled{opacity:.5;cursor:default;}
+.corr-panel h4{color:var(--gold);font-size:.88rem;margin:10px 0 6px;padding-bottom:3px;border-bottom:1px solid #E0D2A0;}
+.rc-lbl{font-size:.8rem;color:#555;text-align:center;margin-bottom:6px;}
+
+/* قائمة اختيار الخطأ (منبثقة) */
+.epick{position:fixed;inset:0;background:rgba(20,14,2,.7);display:none;z-index:85;align-items:center;justify-content:center;}
+.epick.show{display:flex;}
+.epick .ebox{background:var(--paper);border:2px solid var(--gold);border-radius:12px;width:540px;max-width:94vw;max-height:80vh;overflow-y:auto;padding:14px;}
+.epick .eword{text-align:center;font-size:1.2rem;color:var(--hl);font-weight:bold;margin-bottom:8px;}
+.epick h4{font-size:.9rem;margin:8px 0 5px;padding-bottom:3px;border-bottom:1px solid #E0D2A0;}
+.epick h4.j{color:#C0392B;}.epick h4.k{color:#2980B9;}
+.etags{display:flex;flex-wrap:wrap;gap:5px;}
+.etag{font-size:.8rem;padding:4px 9px;border-radius:14px;cursor:pointer;border:1px solid;}
+.etag.j{color:#C0392B;border-color:#C0392B;}.etag.j:hover{background:#C0392B;color:#fff;}
+.etag.k{color:#2980B9;border-color:#2980B9;}.etag.k:hover{background:#2980B9;color:#fff;}
+.jgrade{display:flex;justify-content:center;gap:8px;margin-bottom:6px;}
+.jg{font-family:'Amiri',serif;font-size:.85rem;min-height:36px;padding:4px 18px;border-radius:14px;cursor:pointer;background:none;border:1px solid #C0392B;color:#C0392B;}
+.jg.tanbih{border-color:#AD6800;color:#AD6800;}
+.jg.radd.active{background:#C0392B;color:#fff;}.jg.tanbih.active{background:#AD6800;color:#fff;}
+.jgrid{display:grid;grid-template-columns:auto repeat(3,1fr);gap:5px;align-items:center;}
+.jh{font-size:.8rem;color:#C0392B;text-align:center;font-weight:bold;}
+.jcell{font-family:'Amiri',serif;font-size:.85rem;min-height:44px;border-radius:8px;cursor:pointer;background:none;border:1px solid #C0392B;color:#C0392B;}
+.jcell:hover{background:#C0392B;color:#fff;}
+.epick .eclose{display:block;margin:10px auto 0;background:#888;color:#fff;border:none;border-radius:7px;padding:5px 18px;font-family:'Amiri',serif;cursor:pointer;}
+
+/* تبويب السجل */
+.records{position:fixed;inset:0;background:rgba(20,14,2,.78);display:none;z-index:80;align-items:flex-start;justify-content:center;padding-top:5vh;overflow-y:auto;}
+.records.show{display:flex;}
+.records .rbox{background:var(--paper);border:2px solid var(--gold);border-radius:12px;width:680px;max-width:95vw;max-height:88vh;overflow-y:auto;padding:16px;}
+.records h3{color:var(--gold);text-align:center;margin-bottom:10px;}
+.stat-row{display:flex;gap:10px;justify-content:center;margin-bottom:12px;}
+.stat-b{background:linear-gradient(135deg,#F5E9C5,#EBD9A8);border-radius:9px;padding:8px 16px;text-align:center;}
+.stat-b .n{font-size:1.5rem;font-weight:bold;color:#6B4F0E;}
+.stat-b .l{font-size:.72rem;color:#8a6d1a;}
+.std-card{border:1px solid #E0D2A0;border-radius:9px;padding:9px;margin-bottom:8px;}
+.std-card .sh{display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+.std-card .nm{font-weight:bold;color:var(--dark);}
+.sess-row{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;padding:4px 6px;border-top:1px solid #EEE3C0;margin-top:5px;}
+.gtag{font-size:.7rem;padding:2px 8px;border-radius:7px;font-weight:bold;color:#fff;}
+.rbtn{background:var(--gold);color:#fff;border:none;border-radius:6px;padding:3px 10px;font-family:'Amiri',serif;font-size:.76rem;cursor:pointer;margin-right:4px;}
+.rbtn.del{background:#C0392B;}
+.rclose{display:block;margin:12px auto 0;background:#888;color:#fff;border:none;border-radius:8px;padding:6px 22px;font-family:'Amiri',serif;cursor:pointer;}
+.no-data{text-align:center;color:#999;padding:18px;}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#241D10;color:#E8D9A8;padding:9px 20px;border-radius:9px;border:1px solid var(--gold);z-index:200;font-size:.9rem;opacity:0;transition:opacity .3s;}
+.toast.show{opacity:1;}
+
+@media (max-width:1000px){
+  .stage{flex-direction:column;align-items:center;}
+  .margin,.corr-panel{position:static;width:640px;max-width:96vw;max-height:42vh;}
+  .ln{font-size:1.4rem;line-height:2.65rem;}
+  .lines{padding-top:0.25rem;}
+}
+
+/* ════════════════════════════════════════════════════════════
+   كلاسات بديلة للأنماط inline التي كانت تُبنى سابقاً داخل JS
+   (نفس القيم البصرية تماماً — نُقلت من سلاسل innerHTML إلى CSS)
+   ════════════════════════════════════════════════════════════ */
+
+/* قائمة الأخطاء في لوحة التصحيح (renderErrorList) */
+.eitem .e-body{flex:1;}
+.eitem .e-word{font-weight:bold;}
+.eitem .e-type{font-size:.7rem;color:#888;}
+.eitem .e-name{font-size:.72rem;color:#666;}
+.eitem .e-loc{font-size:.68rem;color:#999;}
+
+/* بطاقات السجل والإحصاءات (renderRecords) */
+.sess-detail{display:none;}
+.std-sessions{display:none;}
+.sess-meta{font-size:.72rem;color:#888;}
+.sess-errors{display:none;padding:6px 8px;background:#FCF8EC;border-radius:6px;margin:3px 0;}
+.sess-err{font-size:.74rem;padding:3px 0;border-bottom:1px dotted #E0D2A0;padding-right:6px;margin-bottom:2px;border-right:3px solid;}
+.sess-err.j{border-right-color:#C0392B;}
+.sess-err.k{border-right-color:#2980B9;}
+.sess-err .sw{font-weight:bold;}
+.sess-err.j .sw{color:#C0392B;}
+.sess-err.k .sw{color:#2980B9;}
+.sess-err .st{font-size:.66rem;color:#888;}
+.sess-err .sn{color:#555;}
+.sess-err .sl{color:#999;font-size:.68rem;}
+.no-data.tiny{padding:8px;}
+.std-actions{text-align:left;margin-top:6px;}
+
+/* تقرير الطباعة (exportStudent — تُطبّق داخل نافذة الطباعة المنفصلة) */
+.print-body{font-family:Arial;padding:24px;direction:rtl;}
+.print-body h2{text-align:center;}
+.print-body h3{color:#6B4F0E;border-bottom:1px solid #ccc;padding-bottom:4px;}
+.print-body table{width:100%;border-collapse:collapse;margin-top:8px;}
+.print-body th,.print-body td{border:1px solid #ccc;padding:6px;text-align:center;font-size:13px;}
+.print-body th{background:#EBD9A8;}
+.print-body .center{text-align:center;}
+.print-body .word{font-weight:bold;}
+.print-body .muted{color:#999;}
+
+/* --- Gharib Tooltip --- */
+.gharib-tip{display:none;position:fixed;z-index:200;max-width:230px;min-width:150px;background:#FCF8EC;border:2px solid;border-radius:10px;padding:7px 10px 8px;box-shadow:0 4px 22px rgba(0,0,0,.4);font-family:'Amiri',serif;line-height:1.4;}
+.gharib-tip.show{display:block;}
+.gharib-tip .gt-header{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:4px;}
+.gharib-tip .gt-word{font-size:1.4rem;line-height:1.6;}
+.gharib-tip .gt-close{background:none;border:none;color:#aaa;cursor:pointer;font-size:.85rem;flex-shrink:0;padding:0 2px;line-height:1;}
+.gharib-tip .gt-mean{font-size:.85rem;color:#3a2800;margin-bottom:7px;line-height:1.4;}
+.gharib-tip .gt-play{display:block;width:100%;background:var(--gold);color:#fff;border:none;border-radius:6px;padding:4px 0;font-family:'Amiri',serif;font-size:.82rem;cursor:pointer;}
+.gharib-tip .gt-play:hover{background:var(--gold-l);}
+
+/* إخفاء أشرطة التمرير من أسطر المصحف (تظهر كمسطرة بعد إصلاح الحركات) */
+.ln{scrollbar-width:none;-ms-overflow-style:none;}
+.ln::-webkit-scrollbar{display:none;}
+
+/* ── لوحة التفسير: جانبية على الشاشات الواسعة، من الأسفل على الضيقة ── */
+.ln .vn[data-k]{cursor:pointer;}
+.tfs{position:fixed;top:62px;left:12px;width:360px;max-height:calc(100vh - 80px);z-index:70;
+  background:var(--margin-bg);border:2px solid var(--frame);border-radius:10px;padding:10px;
+  display:none;flex-direction:column;gap:8px;box-shadow:0 8px 30px rgba(0,0,0,.5);}
+.tfs.show{display:flex;}
+.tfs-head{display:flex;justify-content:space-between;align-items:center;color:var(--gold);font-weight:bold;}
+.tfs-sw{display:flex;gap:4px;background:#1A150B;border-radius:8px;padding:3px;}
+.tfs-sw button{flex:1;background:transparent;color:#C9A227;border:none;border-radius:6px;
+  padding:4px 12px;font-family:'Amiri',serif;font-size:.92rem;cursor:pointer;}
+.tfs-sw button.active{background:var(--gold);color:#fff;}
+.tfs-body{flex:1;overflow-y:auto;white-space:pre-line;line-height:1.8;font-size:1rem;}
+.tfs-fn{font-size:.75rem;color:#8a6d1a;}
+.tfs-em{font-weight:700;}
+.tfs-fnref{font-size:.65rem;color:#8a6d1a;}
+.tfs-notes{font-size:.75rem;color:#8a6d1a;border-top:1px solid #8a6d1a;margin-top:.75rem;padding-top:.5rem;}
+.tfs-nav{display:flex;justify-content:space-between;}
+.tfs-nav button:disabled{opacity:.4;cursor:default;}
+.tfs-credit{font-size:.68rem;color:#888;line-height:1.5;border-top:1px solid #E0D2A0;padding-top:6px;}
+.tfs-credit a{color:var(--gold);}
+@media (max-width:1000px){
+  .tfs{top:auto;left:0;right:0;bottom:0;width:auto;max-height:60vh;border-radius:12px 12px 0 0;}
+}
